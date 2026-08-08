@@ -19,6 +19,25 @@ Anyone who clones or downloads this repository can run it by following these ste
 
 ### 1. Clone the Repository
 Open your terminal or command line and run:
-```bash
-git clone [https://github.com/IH-15/hijri-gregorian-converter.git](https://github.com/IH-15/hijri-gregorian-converter.git)
-cd hijri-gregorian-converter
+
+`git clone https://github.com/IH-15/hijri-gregorian-converter.git`
+
+`cd hijri-gregorian-converter`
+
+### 2. Install Required Dependencies
+Ensure you have Python installed, then install the required `hijridate` library:
+
+`pip install hijridate==2.3.0`
+
+### 3. Run the Application
+Execute the script using Python:
+
+`python app.py`
+
+---
+
+## 🧰 Technologies Used
+
+* **Language:** Python 3
+* **Libraries:** `hijridate`
+* **Version Control:** Git & GitHub
